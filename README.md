@@ -11,7 +11,7 @@ Details about **tbsm** can be found in the doc directory and on
 the [tbsm home page](https://loh-tar.github.io/tbsm/) with some
 screenshots.
 
-To-Do
+### To-Do
 Add other options to the menu
 
 ### License
