@@ -1,4 +1,4 @@
-!/bin/bash
+#!/usr/bin/env bash
 #
 #   fgsm: Fearless Geek Session Manager
 #   Copyright: 2023-2024
@@ -563,7 +563,7 @@ showMenu() {
   clear
   cat $HOME/.config/fgsm/fgsm.txt | gum style --border="thick" --padding="1 1"
   printMenuHeader
-  chosenEnv=$(printMenuList | gum choose --header="Available Window Managers/Desktop Environments" --header.height=3 --item.padding="1 1")
+  chosenEnv=$(printMenuList | gum choose --header="Available Window Managers/Desktop Environments" --header.height=3)
   printMenuFooter
 }
 
