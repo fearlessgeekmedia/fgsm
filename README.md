@@ -27,6 +27,7 @@ fi
   
 ```
 Other shells will have a different process for this.
+
 4. Disable any display/session manager you may have currently set up. If on a systemd Linux system, `sudo systemctl disable [whatever the manager name]`
 
 ### To-Do
