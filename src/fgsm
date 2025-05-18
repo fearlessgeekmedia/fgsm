@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+while true; do
+# Clear arrays at the start of each loop iteration
+x11_sessions=()
+wayland_sessions=()
+menu_items=()
+
 # Function to parse .desktop files and extract Name= entries
 parse_desktop_files() {
     local dir="$1"
@@ -109,3 +115,4 @@ if [ -n "$desktop_file" ]; then
     fi
 fi
 		
+done
