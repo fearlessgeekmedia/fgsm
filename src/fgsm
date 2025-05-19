@@ -110,7 +110,7 @@ if [ -n "$desktop_file" ]; then
         # Get the Exec= line from the .desktop file
         exec_line=$(grep "^Exec=" "/usr/share/wayland-sessions/$desktop_file" | head -n1 | cut -d'=' -f2-)
         if [ -n "$exec_line" ]; then
-            exec $exec_line
+            $exec_line
         fi
     fi
 fi
